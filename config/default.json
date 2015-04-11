@@ -1,0 +1,15 @@
+{
+  "Server": {
+    "dbConfig": {
+      "url": "mongodb://localhost/gah",
+      "options": {
+        "server": {
+          "auto_reconnect": "true"
+        }
+      }
+    },
+    "rest": {
+    
+    }
+  }
+}
