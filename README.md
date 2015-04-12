@@ -16,10 +16,13 @@ node server.js | <path_to_node_modules>/bunyan/bin/bunyan
 ## REST API
 The next table is a showcase of all API endpoints. For more information about method's payload check model schemas.
 
-| HTTP verbs    | Resource name | HTTP method                   |
-| ------------- | ------------- | ----------------------------- |
-| create        | User          | POST /users with Payload      |
-| delete        | User          | DELETE /users/david           |
-| list          | User          | GET /users                    |
-| update        | User          | PUT /users/david with Payload |
-| view          | User          | GET /users/david              |
+| HTTP verbs    | Resource name | HTTP method                               |
+| ------------- | ------------- | ----------------------------------------- |
+| create        | User          | POST /users with Payload                  |
+| delete        | User          | DELETE /users/david                       |
+| list          | User          | GET /users                                |
+| update        | User          | PUT /users/david with Payload             |
+| view          | User          | GET /users/david                          |
+| create        | Comment       | POST /comments with Payload               |
+| delete        | Comment       | DELETE /comments/5529c97e9fd48bdd4c0ad93d |
+| view          | Comment       | GET /comments/5529c97e9fd48bdd4c0ad93d    |
