@@ -20,6 +20,7 @@ The next table is a showcase of all API endpoints. For more information about me
 | ------------- | ------------- | ----------------------------------------- |
 | create        | User          | POST /users with Payload                  |
 | delete        | User          | DELETE /users/david                       |
+| follow        | User          | POST /users/david/follow/jorge            |
 | list          | User          | GET /users                                |
 | update        | User          | PUT /users/david with Payload             |
 | view          | User          | GET /users/david                          |
