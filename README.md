@@ -37,5 +37,6 @@ There are some error in the server. The most annoying is related with followers.
  - A user can follow other user as many time as he/she want and a new reference is store each time.
  - If a user is deleted, references remain in the users he or she was following. I have to define a pre('remove') to solve this.
 
-There are more bugs but, EY! It's something
+There are more bugs but, Ey! It's something.
+
 ![It's something meme](http://davidmogar.com/uploads/github/its_something.png "It's something meme")
