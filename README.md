@@ -16,20 +16,20 @@ node server.js | <path_to_node_modules>/bunyan/bin/bunyan
 ## REST API
 The next table is a showcase of all API endpoints. For more information about method's payload check model schemas.
 
-| HTTP verbs    | Resource name | HTTP method                               |
-| ------------- | ------------- | ----------------------------------------- |
-| create        | Comment       | POST /comments with Payload               |
-| delete        | Comment       | DELETE /comments/5529c97e9fd48bdd4c0ad93d |
-| view          | Comment       | GET /comments/5529c97e9fd48bdd4c0ad93d    |
-| count         | Hug           | GET /hugs/david                           |
-| create        | Hug           | POST /hugs with Payload                   |
-| list          | Hug           | GET /hugs                                 |
-| create        | User          | POST /users with Payload                  |
-| delete        | User          | DELETE /users/david                       |
-| follow        | User          | POST /users/david/follow/jorge            |
-| list          | User          | GET /users                                |
-| update        | User          | PUT /users/david with Payload             |
-| view          | User          | GET /users/david                          |
+| HTTP verbs    | Resource name | HTTP method                                                          |
+| ------------- | ------------- | -------------------------------------------------------------------- |
+| create        | Comment       | POST /comments with Payload                                          |
+| delete        | Comment       | DELETE /comments/5529c97e9fd48bdd4c0ad93d                            |
+| view          | Comment       | GET /comments/5529c97e9fd48bdd4c0ad93d                               |
+| count         | Hug           | GET /users/5529c97e9fd48bdd4c0ad93d/hugs                             |
+| create        | Hug           | POST /hugs with Payload                                              |
+| list          | Hug           | GET /hugs                                                            |
+| create        | User          | POST /users with Payload                                             |
+| delete        | User          | DELETE /users/5529c97e9fd48bdd4c0ad93d                               |
+| follow        | User          | POST /users/5529c97e9fd48bdd4c0ad93d/follow/553353ae8c85e592520cd027 |
+| list          | User          | GET /users                                                           |
+| update        | User          | PUT /users/5529c97e9fd48bdd4c0ad93d with Payload                     |
+| view          | User          | GET /users/5529c97e9fd48bdd4c0ad93d                                  |
 
 ## TODO
 There are some error in the server. The most annoying is related with followers. At the present time there are two known bugs:
