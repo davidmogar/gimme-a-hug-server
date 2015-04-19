@@ -35,7 +35,7 @@ The next table is a showcase of all API endpoints. For more information about me
 There are some error in the server. The most annoying is related with followers. At the present time there are two known bugs:
 
  - A user can follow other user as many time as he/she want and a new reference is store each time.
- - If a user is deleted, references remain in the users he or she was following. I have to define a pre('remove') to solve this.
+ - If a user is deleted, references remain in the users he/she was following. I have to define a pre('remove') to solve this.
 
 There are more bugs but, Ey! It's something.
 
