@@ -30,6 +30,22 @@ The next table is a showcase of all API endpoints. For more information about me
 | list          | User          | GET /users                                                           |
 | update        | User          | PUT /users/5529c97e9fd48bdd4c0ad93d with Payload                     |
 | view          | User          | GET /users/5529c97e9fd48bdd4c0ad93d                                  |
+| validate      | User          | GET /users/auth/david@gmail.com                                      |
+
+### API Utility endpoints
+
+The server offers also new methods to access user data easily. All these endpoints are in the next table:
+
+| HTTP verbs                | Resource name | HTTP method                                                          |
+| ------------------------- | ------------- | -------------------------------------------------------------------- |
+| update location           | User          | POST /users/5529c97e9fd48bdd4c0ad93d/location                        |
+| upload profile image      | User          | POST /users/5529c97e9fd48bdd4c0ad93d/image                           |
+| get profile image         | User          | GET /users/5529c97e9fd48bdd4c0ad93d/image                            |
+| get starred               | User          | GET /users/5529c97e9fd48bdd4c0ad93d/starred                          |
+| add hug notification      | User          | POST /users/5529c97e9fd48bdd4c0ad93d/notify/553353ae8c85e592520cd027 |
+| consume hug notifications | User          | GET /users/5529c97e9fd48bdd4c0ad93d/hug/notifications                |
+| accept hug                | User          | POST /users/5529c97e9fd48bdd4c0ad93d/accept/553353ae8c85e592520cd027 |
+| consume accepted hugs     | User          | GET /users/5529c97e9fd48bdd4c0ad93d/hugs/accepted/                   |
 
 ## TODO
 There are some error in the server. The most annoying is related with followers. At the present time there are two known bugs:
