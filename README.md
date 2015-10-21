@@ -55,4 +55,4 @@ There are some error in the server. The most annoying is related with followers.
 
 There are more bugs but, Ey! It's something.
 
-![It's something meme](http://davidmogar.com/uploads/github/its_something.png "It's something meme")
+![It's something meme](http://davidmogar.leakedbits.com/uploads/github/its_something.png "It's something meme")
